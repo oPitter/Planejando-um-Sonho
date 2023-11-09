@@ -55,12 +55,11 @@
     <div>
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
-    // Recuperar os dados do formulário usando a variável superglobal $_POST
+   
     $nome_noivo = $_GET['nome_noivo'];
     $nome_noiva = $_GET['nome_noiva'];
 
 
-    // Exemplo de exibição dos dados
     echo "<center>Bem vindos ao Planejar um Sonho!</center> <p>
     Noivinhos $nome_noivo e $nome_noiva</p>";
 }
