@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntas</title>
+    <style>
+        body{
+            
+            font-family: Arial, Helvetica, sans-serif;
+            background-image:url(./img/WEDDING-613.png);
+            background-size: cover;
+        }
+        div{
+            background-color: rgba(122, 40, 255, 0.726);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            padding: 15px;
+            border-radius: 25px;
+            color: #fff;
+        }
+        input{
+            padding: 15px;
+            border: 100px;
+            border-radius: 100px;
+            width: 90%;
+            outline: 100px;
+            font-size: 15px;
+        }
+        button{
+            background-color: rgb(64, 19, 94);
+            border: 100px;
+            padding: 15px;
+            right: 20%;
+            border-radius: 100px;
+            color: white;
+            font-size: 15px;
+            float:right;
+            
+        }
+        button:hover{
+            background-color: deepskyblue;
+            cursor: pointer;            
+        }
+        h1 {
+            color: white; /* Define a cor do texto para branco */
+            text-shadow: 2px 5px 4px rgba(0, 0, 0, 10); /* Adicionando sombra de texto */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <center><a href="index.html" style="color: white;"><strong>Clique para Instruções</strong></a></center>
+        <form action="valortotal.php" method="get">
+            <table>
+                <tr>
+                    <td>
+                        <label for="pergunta1"><strong>Nome do Espaço:</strong></label>
+                        <input type="text" id="pergunta1" name="resposta1" placeholder="Ex:. Spazzio GranJardin">
+                    </td>
+                    <td>
+                        <!-- Coluna de valores -->
+                        <center><label for="Valores"><strong>Valor</strong></label></center>
+                        <input type="text" name="valor1" placeholder="valor1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pergunta2"><strong>Nome do Buffet:</strong></label>
+                        <input type="text" id="pergunta2" name="resposta2" placeholder="Ex:. Comida Gostosa">
+                    </td>
+                    <td>
+                        <!-- Coluna de valores -->
+                        <p></p>
+                        <input type="text" name="valor2" placeholder="Valor 2">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pergunta3"><strong>Nome do Fotógrafo:</strong></label>
+                        <input type="text" id="pergunta3" name="resposta3" placeholder="Ex:. LucasDM">
+                    </td>
+                    <td>
+                        <!-- Coluna de valores -->
+                        <p></p>
+                        <input type="text" name="valor3" placeholder="Valor 3">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pergunta3"><strong>Nome da Banda:</strong></label>
+                        <input type="text" id="pergunta4" name="resposta4" placeholder="Ex:. BandaRock">
+                    </td>
+                    <td>
+                        <!-- Coluna de valores -->
+                        <p></p>
+                        <input type="text" name="valor4" placeholder="Valor 4">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pergunta5"><strong>Cerimônialista:</strong></label>
+                        <input type="text" id="pergunta5" name="resposta5" placeholder="Ex:. Ju Diniz">
+                    </td>
+                    <td>
+                        <!-- Coluna de valores -->
+                        <p></p>
+                        <input type="text" name="valor5" placeholder="Valor 5">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="pergunta6"><strong>Doces:</strong></label>
+                        <input type="text" id="pergunta6" name="resposta6" placeholder="Ex:. TâmaraVitória">
+                    </td>
+                    <td>
+                        <!-- Coluna de valores -->
+                        <p></p>
+                        <input type="text" name="valor6" placeholder="Valor 6">
+                    </td>
+                </tr>
+            </table>
+                <button>Planejar</button>
+        </form>
+        <p></p>
+        <a href="index.html" style="color: white;">Voltar ao Inicio</a>
+    </div>
+</body>
+</html>
