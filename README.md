@@ -1,4 +1,4 @@
-# Planejando-um-Sonho
+# Planejando-um-Sonho 🤵👰💍
 Projeto Sistema Web - Planejando um Sonho
 
 Estou criando um projeto chamado PLANEJAR UM SONHO💍para fins de alimentar meu portifólio e também estudos para aprimoramento, estamos na versão 1 do sistema! Este sistema tem como objetivo solucionar um problema, o não planejamento ao se casar.🤵👰💍
